@@ -95,7 +95,7 @@ const createSlider = () => {
     }, duration);
   }
   else{
-    alert(`Duration can not be negative OR You Have to put at least 1000ms`);
+    alert(`Please put duration value at least 1000ms`);
     document.querySelector('.main').style.display = 'none';
   }
 }
