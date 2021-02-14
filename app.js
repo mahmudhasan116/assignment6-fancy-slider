@@ -95,7 +95,7 @@ const createSlider = () => {
     }, duration);
   }
   else{
-    alert(`Please put duration value at least 1000 (input parameter here is mili second)`);
+    alert(`Please put duration value at least 1000 (Here input value is in mili second)`);
     document.querySelector('.main').style.display = 'none';
   }
 }
